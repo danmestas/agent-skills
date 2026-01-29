@@ -15,13 +15,19 @@ Use when working with Atlassian CLI (acli) to install, authenticate, and manage 
 Install all skills from this repo:
 
 ```bash
-npx skills add <your-org>/<your-repo>
+npx skills add danmestas/agent-skills
 ```
 
 Install a single skill:
 
 ```bash
-npx skills add <your-org>/<your-repo> --skill atlassian-cli-jira
+npx skills add danmestas/agent-skills --skill atlassian-cli-jira
+```
+
+Template form:
+
+```bash
+npx skills add <your-org>/<your-repo> --skill <skill-name>
 ```
 
 ## Usage
